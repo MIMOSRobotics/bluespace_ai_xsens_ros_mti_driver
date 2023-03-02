@@ -383,8 +383,8 @@ void StandardThread::stopThread(void) noexcept
 	//			return;
 	//	}
 	//#else
-	#BUKHARY commented out and added code based on https://github.com/bluespace-ai/bluespace_ai_xsens_ros_mti_driver/pull/17/files
-	#################################
+	//#BUKHARY commented out and added code based on https://github.com/bluespace-ai/bluespace_ai_xsens_ros_mti_driver/pull/17/files
+	//#################################
 	/*while (isAlive())
 		xsYield();
 	//#endif
@@ -406,7 +406,7 @@ void StandardThread::stopThread(void) noexcept
 	}
 	//#endif
 	if (rv != 0)
-	#################################
+	//#################################
 	
 	{
 		switch (errno)
